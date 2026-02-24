@@ -15,6 +15,15 @@
   "background": {
     "service_worker": "background.js"
   },
+  "commands": {
+    "toggle-debug-mode": {
+      "suggested_key": {
+        "default": "Ctrl+.",
+        "mac": "MacCtrl+."
+      },
+      "description": "Toggle Odoo debug mode (next mode in sequence)"
+    }
+  },
   "permissions": [
     "activeTab"
   ],
