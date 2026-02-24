@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Odoo Debug Mode Toggle",
+  "version": "1.0",
+  "description": "Toggle between Odoo debug modes: Normal, Debug, Debug Assets",
+  "icons": {
+    "16": "icons/icon16-debug.png",
+    "48": "icons/icon48-debug.png",
+    "128": "icons/icon128-debug.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Odoo Debug Mode"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "author": "BizzAppDev Systems (Powered by opencode model: QWEN3-coder)",
+  "homepage_url": "https://www.bizzappdev.com"
+}
