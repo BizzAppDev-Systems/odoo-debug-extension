@@ -18,8 +18,8 @@
   "commands": {
     "toggle-debug-mode": {
       "suggested_key": {
-        "default": "Ctrl+.",
-        "mac": "Command+."
+        "default": "Ctrl+Period",
+        "mac": "Command+Period"
       },
       "description": "Toggle Odoo debug mode (next mode in sequence)"
     }
